@@ -1,0 +1,70 @@
+body{
+    background-color: gainsboro;
+    height: 85vh;
+    
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+}
+.contenedor{
+    width: 450px;
+    margin: auto;
+    background-color: white;
+    padding: 2em 1em;
+    box-sizing: border-box;
+    margin-top: 5em;
+    text-align: center;
+}
+.contenedor select, option{
+    margin-bottom: 1em;
+    padding: 1em;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+.contenedor input{
+    margin-bottom: 1em;
+    padding: 1em;
+    box-sizing: border-box;
+    width: 70%;
+    background-color: gainsboro;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+#btn{
+    padding: 1em;
+    box-sizing: border-box;
+    width: 50%;
+    background-color: cornflowerblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    border: solid black .3px;
+    color: cornsilk;
+}
+#resultado{
+    margin-bottom: 1em;
+    padding: 1em;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: rgb(100, 149, 237, .5);
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+.texto{
+    margin-top: 0;
+    margin-bottom: 1em;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+}
+.contenedor label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    background-color: rgb(100, 149, 237, .5);
+    padding: 1em;   
+}

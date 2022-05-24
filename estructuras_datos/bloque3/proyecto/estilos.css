@@ -1,0 +1,89 @@
+body{
+    background-image: url(fondo2.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 1400px ;
+    height: 85vh;
+    
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4em;
+}
+.contenedor{
+    width: 400px;
+    background-color: #F4C430;
+    margin: auto;
+    padding: 30px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: black;
+    box-shadow: 7px 13px 37px #673147;
+    box-sizing: border-box;
+    margin-top: 2em;
+    /*padding: 2em 1em;*/
+    
+    
+}
+.contenedor select, option{
+    width: 70%;
+    background-color: rgb(241, 163, 94);
+    padding: 1em;
+    border-radius: 4px;
+    margin-bottom: 2em;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+
+}
+.contenedor input{
+    width: 70%;
+    background-color: rgb(241, 163, 94);
+    padding: 1em;
+    border-radius: 4px;
+    margin-bottom: 2em;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+}
+#btn{
+    width: 40%;
+    background-color: rgb(241, 163, 94);
+    padding: 1em;
+    border-radius: 4px;
+    margin-bottom: 2em;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    color: black;
+}
+#resultado{
+    width: 100%;
+    padding: 1em;
+    border-radius: 4px;
+    margin-bottom: 2em;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+}
+.texto{
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 2em;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+}
+.contenedor label{
+    width: 70%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+   color: black;
+    padding: 1em;   
+}
+
+.lab{
+    margin-bottom: 1.2em;
+    margin-top: 1em;
+    font-family: 'Courier New', Courier, monospace;
+}

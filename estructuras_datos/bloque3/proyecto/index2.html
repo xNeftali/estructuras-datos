@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="prueb.js"></script>
+    <link rel="stylesheet" href="estilos copy.css">
+    <title>Proyecto final</title>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Libreria</h1>
+        <select name="accion" id="accion">
+            <option value="encolar">Añadir</option>
+            <option value="desencolar">Eliminar</option>
+            <option value="imprimir">Libros</option>
+            <option value="tamaño">Disponibles</option>
+        </select>
+        
+        <div>
+            <div class="lab">
+                <label for="libro">Nombre del libro</label>
+            </div>
+            <input type="text" name="libro" id="libro">
+        </div>
+
+        <div class="boton">
+            <input type="button" id="btn" value="Realizar" onclick="ok()">
+        </div>
+        <p class="texto"></p>
+        <span class="texto" id="resultado"></span>
+    </div>
+</body>
+
+</html>
